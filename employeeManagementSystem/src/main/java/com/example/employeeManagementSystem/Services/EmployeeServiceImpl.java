@@ -7,7 +7,7 @@ import com.example.employeeManagementSystem.Beans.Employee;
 import com.example.employeeManagementSystem.Repository.EmployeeRepository;
 
 @Service
-public class EmployeeServiceimpl implements EmployeeService {
+public class EmployeeServiceImpl implements EmployeeService {
 	@Autowired
 	EmployeeRepository employeerepository;
 

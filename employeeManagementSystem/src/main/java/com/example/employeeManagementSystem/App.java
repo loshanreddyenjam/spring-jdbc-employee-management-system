@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.example.employeeManagementSystem.Controller.EmployeeControler;
+import com.example.employeeManagementSystem.Controller.EmployeeController;
 import org.springframework.context.ApplicationContext;
 
 
@@ -19,7 +19,7 @@ public class App {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in));) {
 
 			ApplicationContext context=new ClassPathXmlApplicationContext("Beans.xml");
-			EmployeeControler employeecontroller=(EmployeeControler) context.getBean("employeeControler");
+			EmployeeController employeecontroller=(EmployeeController) context.getBean("employeeControler");
 			while (true) {
 				System.out.println();
 				//System.out.println();

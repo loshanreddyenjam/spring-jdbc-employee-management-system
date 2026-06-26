@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
 import com.example.employeeManagementSystem.Beans.Employee;
 
 @Repository
-public class EmployeeRepositoryimpl implements EmployeeRepository {
+public class EmployeeRepositoryImpl implements EmployeeRepository {
 
 	@Autowired
 	DriverManagerDataSource datasource;

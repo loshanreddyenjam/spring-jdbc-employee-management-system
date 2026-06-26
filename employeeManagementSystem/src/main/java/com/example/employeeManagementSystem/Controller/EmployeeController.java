@@ -12,7 +12,7 @@ import com.example.employeeManagementSystem.Beans.Employee;
 import com.example.employeeManagementSystem.Services.EmployeeService;
 
 @Controller
-public class EmployeeControler {
+public class EmployeeController {
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	@Autowired
 	EmployeeService employeeservice;
